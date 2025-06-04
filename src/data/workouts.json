@@ -7,80 +7,97 @@
     "exercises": [
       {
         "order": 1,
-        "name": "Rudern",
-        "muscleGroup": "Cardio",
+        "exerciseId": 1,
         "warmup": true,
         "duration": "5-10min"
       },
       {
         "order": 2,
-        "name": "Beinpresse",
-        "muscleGroup": "Beine, Po",
+        "exerciseId": 2,
         "warmupWeightKg": 55,
         "weightKg": 105,
         "reps": 8,
         "sets": 3,
-        "feeling": "😅",
+        "feeling": {
+          "value": 3,
+          "emoji": "😐"
+        },
         "comment": "ist schon nicht einfach"
       },
       {
         "order": 3,
-        "name": "Brustpresse",
-        "muscleGroup": "Brust, Trizeps",
+        "exerciseId": 7,
         "warmupWeightKg": 21,
         "weightKg": 49,
         "reps": 10,
         "sets": 3,
-        "feeling": "🔥",
+        "feeling": {
+          "value": 4,
+          "emoji": "👍"
+        },
         "comment": "ging besser als letztes Mal"
       },
       {
         "order": 4,
-        "name": "Latzug",
-        "muscleGroup": "Rücken, Bizeps",
+        "exerciseId": 5,
         "warmupWeightKg": 33,
         "weightKg": 68,
         "reps": 8,
         "sets": 3,
-        "feeling": "💪",
+        "feeling": {
+          "value": 5,
+          "emoji": "💪"
+        },
         "comment": "ging soweit gut, Hände werden nass"
       },
       {
         "order": 5,
-        "name": "Schulterpresse",
-        "muscleGroup": "Schulter, Trizeps",
+        "exerciseId": 8,
         "warmupWeightKg": 14,
         "weightKg": 21,
         "reps": 10,
         "sets": 3,
+        "feeling": {
+          "value": 4,
+          "emoji": "👍"
+        },
         "comment": "ging besser als letztes Mal, Aufwärmsatz war zu leicht!"
       },
       {
         "order": 6,
-        "name": "Breites Rudern",
-        "muscleGroup": "Rücken, hintere Schulter",
+        "exerciseId": 6,
         "warmupWeightKg": 28,
         "weightKg": 49,
         "reps": 10,
         "sets": 3,
+        "feeling": {
+          "value": 4,
+          "emoji": "👍"
+        },
         "comment": "ging soweit gut"
       },
       {
         "order": 7,
-        "name": "Hyperextensions",
-        "muscleGroup": "unterer Rücken",
+        "exerciseId": 11,
         "reps": 12,
         "sets": 3,
+        "feeling": {
+          "value": 3,
+          "emoji": "😐"
+        },
         "comment": "ging soweit gut wie immer"
       },
       {
         "order": 8,
-        "name": "Beinbeuger (sitzend)",
-        "muscleGroup": "Oberschenkelrückseite",
+        "exerciseId": 3,
         "warmupWeightKg": 40,
         "weightKg": 61,
         "reps": 10,
         "sets": 3,
+        "feeling": {
+          "value": 4,
+          "emoji": "👍"
+        },
         "comment": "ging besser als letztes Mal"
       }
     ]
