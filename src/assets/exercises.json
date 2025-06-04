@@ -1,26 +1,181 @@
 [
   {
     "id": 1,
-    "name": "Beinpresse",
-    "machine": "Gym80",
-    "muscleGroup": "Beine",
-    "weight": 105,
-    "sets": 3,
-    "reps": 12,
-    "warmup": true,
-    "restBetweenSets": "90-120s",
-    "notes": "Gutes Gefühl im linken Oberschenkel"
+    "name": {
+      "de": "Rudergerät (Cardio)",
+      "en": "Rowing Machine (Cardio)"
+    },
+    "muscleGroup": [
+      { "de": "Ganzkörper", "en": "Full Body" },
+      { "de": "Cardio", "en": "Cardio" }
+    ],
+    "position": "sitzend",
+    "gripType": {
+      "de": "neutraler Griff",
+      "en": "neutral grip"
+    },
+    "machineType": "Cardio",
+    "equipment": "Rudergerät"
   },
   {
     "id": 2,
-    "name": "Brustpresse",
-    "machine": "Technogym",
-    "muscleGroup": "Brust",
-    "weight": 40,
-    "sets": 3,
-    "reps": 10,
-    "warmup": false,
-    "restBetweenSets": "60s",
-    "notes": "Leichtes Zwicken in der rechten Schulter"
+    "name": {
+      "de": "Beinpresse",
+      "en": "Leg Press"
+    },
+    "muscleGroup": [
+      { "de": "Beine", "en": "Legs" },
+      { "de": "Po", "en": "Glutes" }
+    ],
+    "position": "sitzend",
+    "gripType": "",
+    "machineType": "Kraft",
+    "equipment": "Beinpresse (Gym80)"
+  },
+  {
+    "id": 3,
+    "name": {
+      "de": "Beinbeuger",
+      "en": "Leg Curl"
+    },
+    "muscleGroup": [
+      { "de": "Oberschenkelrückseite", "en": "Hamstrings" }
+    ],
+    "position": "sitzend",
+    "gripType": "",
+    "machineType": "Kraft",
+    "equipment": "Beinbeuger (Gym80)"
+  },
+  {
+    "id": 4,
+    "name": {
+      "de": "Beinstrecker",
+      "en": "Leg Extension"
+    },
+    "muscleGroup": [
+      { "de": "Oberschenkelvorderseite", "en": "Quadriceps" }
+    ],
+    "position": "sitzend",
+    "gripType": "",
+    "machineType": "Kraft",
+    "equipment": "Beinstrecker (Gym80)"
+  },
+  {
+    "id": 5,
+    "name": {
+      "de": "Latziehen",
+      "en": "Lat Pulldown"
+    },
+    "muscleGroup": [
+      { "de": "Rücken", "en": "Back" },
+      { "de": "Bizeps", "en": "Biceps" }
+    ],
+    "position": "sitzend",
+    "gripType": {
+      "de": "weiter Griff",
+      "en": "wide grip"
+    },
+    "machineType": "Kraft",
+    "equipment": "Latzug (Technogym)"
+  },
+  {
+    "id": 6,
+    "name": {
+      "de": "Rudern (Krafttraining)",
+      "en": "Rowing (Strength)"
+    },
+    "muscleGroup": [
+      { "de": "Rücken", "en": "Back" },
+      { "de": "hintere Schulter", "en": "Rear Deltoid" }
+    ],
+    "position": "sitzend",
+    "gripType": {
+      "de": "weiter Griff",
+      "en": "wide grip"
+    },
+    "machineType": "Kraft",
+    "equipment": "Ruderzugmaschine (Technogym)"
+  },
+  {
+    "id": 7,
+    "name": {
+      "de": "Brustpresse",
+      "en": "Chest Press"
+    },
+    "muscleGroup": [
+      { "de": "Brust", "en": "Chest" },
+      { "de": "Trizeps", "en": "Triceps" }
+    ],
+    "position": "sitzend",
+    "gripType": {
+      "de": "weiter Griff",
+      "en": "wide grip"
+    },
+    "machineType": "Kraft",
+    "equipment": "Brustpresse (Technogym)"
+  },
+  {
+    "id": 8,
+    "name": {
+      "de": "Schulterpresse",
+      "en": "Shoulder Press"
+    },
+    "muscleGroup": [
+      { "de": "Schulter", "en": "Shoulders" },
+      { "de": "Trizeps", "en": "Triceps" }
+    ],
+    "position": "sitzend",
+    "gripType": {
+      "de": "weiter Griff",
+      "en": "wide grip"
+    },
+    "machineType": "Kraft",
+    "equipment": "Schulterpresse (Technogym)"
+  },
+  {
+    "id": 9,
+    "name": {
+      "de": "Butterfly Reverse",
+      "en": "Reverse Pec Deck"
+    },
+    "muscleGroup": [
+      { "de": "hintere Schulter", "en": "Rear Deltoid" },
+      { "de": "Nacken", "en": "Trapezius" }
+    ],
+    "position": "sitzend",
+    "gripType": {
+      "de": "weiter Griff",
+      "en": "wide grip"
+    },
+    "machineType": "Kraft",
+    "equipment": "Reverse Butterfly (Gym80)"
+  },
+  {
+    "id": 10,
+    "name": {
+      "de": "Crunch-Maschine",
+      "en": "Crunch Machine"
+    },
+    "muscleGroup": [
+      { "de": "Bauch", "en": "Abs" }
+    ],
+    "position": "sitzend",
+    "gripType": "",
+    "machineType": "Kraft",
+    "equipment": "Crunch-Maschine (Gym80)"
+  },
+  {
+    "id": 11,
+    "name": {
+      "de": "Hyperextensions",
+      "en": "Hyperextensions"
+    },
+    "muscleGroup": [
+      { "de": "unterer Rücken", "en": "Lower Back" }
+    ],
+    "position": "schräg",
+    "gripType": "",
+    "machineType": "Kraft",
+    "equipment": "Hyperextension Bank"
   }
 ]
