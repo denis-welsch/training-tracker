@@ -1,18 +1,27 @@
-# Training Tracker
+# 🏋️ Training Tracker
 
 Ein persönliches Trainingsprotokoll auf Basis von JSON-Daten, um Fortschritte im Krafttraining, Pulsdaten (z. B. von Polar), Kommentare und Tagesform zu dokumentieren.
 
-## Ziel
-Dieses Projekt dient als Grundlage, um später eine eigene Web-App (z. B. mit Angular 19+) zu entwickeln.
+## 📌 Ziel
 
-## Inhalte
+Dieses Projekt dient als Grundlage für eine spätere Web-App (z. B. Angular 19+), mit der sich Trainingsdaten analysieren, visualisieren und langfristig auswerten lassen.
 
-- Dokumentation von Übungen, Gewichten, Wiederholungen und Reihenfolge
-- Verbindung zu Pulsdaten (z. B. aus `.tcx`-Dateien oder JSON-Exporten)
-- Platz für Tagesform, Kommentare, Ernährung etc.
-- Grundlage zur Visualisierung (Diagramme, Statistiken)
+## 📂 Inhalte & Struktur
 
-## Aufbau
+- `src/assets/exercises.json` – Aktuelle Übungen (Maschine, Gewicht, Wiederholungen, Kommentare)
+- `data/workouts.json` *(optional)* – Detaillierte Trainingstage mit mehreren Übungen
+- `docs/schema.md` *(optional)* – Beschreibung der JSON-Struktur (für spätere Erweiterungen)
+- `README.md` – Projektbeschreibung
 
-- `data/workouts.json` – alle Trainingseinheiten
-- `docs/schema.md` – Beschreibung der Datenstruktur
+## 📈 Perspektive
+
+- Web-App mit Angular 19 oder 20
+- Pulsdaten-Verknüpfung aus `.tcx` oder JSON-Exporten von Polar
+- Visualisierungen wie Fortschrittsdiagramme, Trainingsintensität oder Tagesform
+- Export und Import von Trainingsdaten
+
+## 🛠️ Tech Stack (geplant)
+
+- Angular 19+ (Frontend)
+- JSON als Datengrundlage
+- Git & GitHub zur Versionskontrolle
