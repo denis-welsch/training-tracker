@@ -1,0 +1,88 @@
+[
+  {
+    "date": "2025-06-03",
+    "startTime": "12:17",
+    "endTime": "13:17",
+    "notes": "Ganzkörper/ Cardio Training",
+    "exercises": [
+      {
+        "order": 1,
+        "name": "Rudern",
+        "muscleGroup": "Cardio",
+        "warmup": true,
+        "duration": "5-10min"
+      },
+      {
+        "order": 2,
+        "name": "Beinpresse",
+        "muscleGroup": "Beine, Po",
+        "warmupWeightKg": 55,
+        "weightKg": 105,
+        "reps": 8,
+        "sets": 3,
+        "feeling": "😅",
+        "comment": "ist schon nicht einfach"
+      },
+      {
+        "order": 3,
+        "name": "Brustpresse",
+        "muscleGroup": "Brust, Trizeps",
+        "warmupWeightKg": 21,
+        "weightKg": 49,
+        "reps": 10,
+        "sets": 3,
+        "feeling": "🔥",
+        "comment": "ging besser als letztes Mal"
+      },
+      {
+        "order": 4,
+        "name": "Latzug",
+        "muscleGroup": "Rücken, Bizeps",
+        "warmupWeightKg": 33,
+        "weightKg": 68,
+        "reps": 8,
+        "sets": 3,
+        "feeling": "💪",
+        "comment": "ging soweit gut, Hände werden nass"
+      },
+      {
+        "order": 5,
+        "name": "Schulterpresse",
+        "muscleGroup": "Schulter, Trizeps",
+        "warmupWeightKg": 14,
+        "weightKg": 21,
+        "reps": 10,
+        "sets": 3,
+        "comment": "ging besser als letztes Mal, Aufwärmsatz war zu leicht!"
+      },
+      {
+        "order": 6,
+        "name": "Breites Rudern",
+        "muscleGroup": "Rücken, hintere Schulter",
+        "warmupWeightKg": 28,
+        "weightKg": 49,
+        "reps": 10,
+        "sets": 3,
+        "comment": "ging soweit gut"
+      },
+      {
+        "order": 7,
+        "name": "Hyperextensions",
+        "muscleGroup": "unterer Rücken",
+        "reps": 12,
+        "sets": 3,
+        "comment": "ging soweit gut wie immer"
+      },
+      {
+        "order": 8,
+        "name": "Beinbeuger (sitzend)",
+        "muscleGroup": "Oberschenkelrückseite",
+        "warmupWeightKg": 40,
+        "weightKg": 61,
+        "reps": 10,
+        "sets": 3,
+        "comment": "ging besser als letztes Mal"
+      }
+    ]
+  }
+]
