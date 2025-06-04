@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Beinpresse",
+    "machine": "Gym80",
+    "muscleGroup": "Beine",
+    "weight": 105,
+    "sets": 3,
+    "reps": 12,
+    "warmup": true,
+    "restBetweenSets": "90-120s",
+    "notes": "Gutes Gefühl im linken Oberschenkel"
+  },
+  {
+    "id": 2,
+    "name": "Brustpresse",
+    "machine": "Technogym",
+    "muscleGroup": "Brust",
+    "weight": 40,
+    "sets": 3,
+    "reps": 10,
+    "warmup": false,
+    "restBetweenSets": "60s",
+    "notes": "Leichtes Zwicken in der rechten Schulter"
+  }
+]
